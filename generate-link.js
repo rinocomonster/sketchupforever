@@ -1,9 +1,10 @@
 var timeleft = 10;
 var downloadTimer = setInterval(function(){
-  document.getElementById("hitung").innerHTML = timeleft + " seconds remaining";
+  document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
   timeleft -= 1;
   if(timeleft <= 0){
     clearInterval(downloadTimer);
-    document.getElementById("hitung").innerHTML = "hhh"
+    document.getElementById("countdown").innerHTML = ""
+    document.getElementById("btndownload").removeAttribute("style");
   }
-}, 1500);
+}, 1000);
