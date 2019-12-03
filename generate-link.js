@@ -4,6 +4,6 @@ var downloadTimer = setInterval(function(){
   timeleft -= 1;
   if(timeleft <= 0){
     clearInterval(downloadTimer);
-    document.getElementById("countdown").innerHTML = "[download_link]"
+    document.getElementById("countdown").innerHTML = "hhh"
   }
 }, 1500);
