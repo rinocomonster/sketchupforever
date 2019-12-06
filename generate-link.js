@@ -4,7 +4,7 @@ var downloadTimer = setInterval(function(){
   timeleft -= 1;
   if(timeleft <= 0){
     clearInterval(downloadTimer);
-    document.getElementById("countdown").innerHTML = ""
+    document.getElementById("countdown").innerHTML = "Scroll down to get Download link"
     document.getElementById("btndownload").removeAttribute("style");
   }
 }, 1000);
