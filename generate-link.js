@@ -7,4 +7,4 @@ var downloadTimer = setInterval(function(){
     document.getElementById("countdown").innerHTML = "Scroll down to get Download link"
     document.getElementById("btndownload").removeAttribute("style");
   }
-}, 1000);
+}, 2000);
